@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, makeStyles, Theme, createStyles, Hidden, Toolbar, AppBar, IconButton, Typography, SwipeableDrawer, Paper } from '@material-ui/core';
+import { Container, makeStyles, createStyles, Hidden, Toolbar, AppBar, IconButton, Typography, SwipeableDrawer, Paper } from '@material-ui/core';
 import NavBar from './NavBar';
 import MenuIcon from '@material-ui/icons/Menu';
 // import MediaAccessories from './MediaAccessories';
@@ -93,7 +93,7 @@ const PageTemplate = ({ header, content }) => {
                 <MenuIcon />
               </IconButton>
               <Typography variant="h6" className={classes.title}>
-                Playall Audio
+                reactApp
               </Typography>
               {/* <MediaAccessories /> */}
             </Toolbar>

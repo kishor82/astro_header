@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) =>
       paddingTop: '25px',
       paddingBottom: '25px',
       textAlign: 'center',
+      background: '#000'
     },
     link: {
       color: 'white',
